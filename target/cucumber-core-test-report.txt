@@ -1,0 +1,6 @@
+
+@login
+Scenario: Login with valid credentials - passing                     [90m# src/test/resources/features/SaucedemoLogin.feature:5[0m
+  [33mGiven [0m[33mI am on login page of Saucedemo website[0m
+  [36mWhen [0m[36mI enter valid username and password and click on Login button[0m
+  [36mThen [0m[36mpage 'Catalog' should be open[0m

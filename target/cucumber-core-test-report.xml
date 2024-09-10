@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.163" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Saucedemo login functionality" name="Login with valid credentials - passing" time="0.003">
+<failure/>
+<system-out><![CDATA[
+Given I am on login page of Saucedemo website...............................undefined
+When I enter valid username and password and click on Login button..........skipped
+Then page 'Catalog' should be open..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
