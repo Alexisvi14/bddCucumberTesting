@@ -9,11 +9,11 @@ public class LoginPage extends AbstractPage {
     public LoginPage(WebDriver driver) {
         super(driver);
     }
-    @FindBy(xpath = "//input[@id='user-name']")
+    @FindBy(id = "user-name")
     private ExtendedWebElement usernameInput;
-    @FindBy(xpath = "//input[@id='password']")
+    @FindBy(id = "password")
     private ExtendedWebElement passwordInput;
-    @FindBy(xpath = "//input[@id='login-button']")
+    @FindBy(id = "login-button")
     private ExtendedWebElement loginBtn;
 
     public CatalogPage login(String username, String password){

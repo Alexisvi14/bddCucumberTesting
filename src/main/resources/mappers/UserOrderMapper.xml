@@ -10,10 +10,6 @@
         SELECT * FROM userOrders WHERE id = #{user_id}
     </select>
 
-    <select id="findUserByOrderId" resultMap="UserOrderResultMap">
-        SELECT * FROM userOrders WHERE id = #{id}
-    </select>
-
     <resultMap type="com.solvd.carina.demo.db.models.UserOrder"
                id="UserOrderResultMap" autoMapping="false">
         <id column="id" property="id"/>
